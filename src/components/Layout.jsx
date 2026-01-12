@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
      <Headers />
-     <main className='mt-50'>
+     <main className='mt-55'>
         <Outlet />
      </main>
      <Foters /> 

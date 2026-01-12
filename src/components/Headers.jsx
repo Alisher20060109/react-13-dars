@@ -23,8 +23,8 @@ const Headers = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       {/* TOP BAR (desktop) */}
-      <div className="hidden md:block bg-blue-700 text-white text-sm">
-        <div className="container mx-auto flex justify-between items-center px-5 py-2">
+      <div className="hidden md:block bg-[#1B6392] text-white text-sm">
+        <div className="container mx-auto flex justify-between items-center  py-2">
           <p>Welcome to Clicon online eCommerce store.</p>
 
           <ul className="flex items-center gap-4">
@@ -46,10 +46,10 @@ const Headers = () => {
           </ul>
         </div>
       </div>
-
+      <div className="bg-gray-400 w-full h-0.5"></div>
       {/* MAIN NAVBAR */}
-      <div className="bg-blue-600">
-        <div className="container mx-auto px-5 py-4">
+      <div className="bg-[#1B6392]">
+        <div className="container mx-auto  py-4">
           {/* TOP ROW */}
           <div className="flex items-center justify-between">
             {/* LOGO */}
@@ -61,7 +61,7 @@ const Headers = () => {
             </div>
 
             {/* SEARCH (desktop) */}
-            <div className="hidden md:flex flex-1 mx-10">
+            <div className="hidden md:flex flex-1 mx-35">
               <div className="flex bg-white rounded w-full overflow-hidden">
                 <input
                   type="text"
@@ -118,9 +118,9 @@ const Headers = () => {
             </div>
           )}
         </div>
-        <div className="bg-white border-b border-gray-200">
-          <div className="bg-white border-b border-gray-200">
-            <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-white border-b  border-gray-200">
+          <div className="bg-white w-full border-b container mx-auto border-gray-200">
+            <div className="w-full  ">
               <div className="py-3 flex items-center justify-between">
                 {/* Left: All Category Dropdown */}
                 <div className="flex items-center">
