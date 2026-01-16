@@ -16,10 +16,10 @@ const App = () => {
         <Route element={<Layout />}>
           <Route path='/' element={<HomePage/>} />
           <Route path='/favoriti' element={<FavoritiPage />} />
-          <Route path='/cart' element={<CartPage />} />
+          <Route path='/cart/:id' element={<CartPage />} />
           <Route path='/filter' element={<FilterPage />} />
           <Route path='/register' element={<RegisterPage />} />
-           <Route path='/singel' element={<SingelPage />} />
+           <Route path='/single/:id' element={<SingelPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
